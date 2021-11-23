@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rotationX="-4" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:paddingTop="60sp"
+        android:text="Factorial Calculator"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="306dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="60sp"
+        android:text="Button" />
+</LinearLayout>
